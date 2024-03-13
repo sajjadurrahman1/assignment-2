@@ -97,3 +97,63 @@ h1 {
     object-fit: cover;
     border-radius: 5px;
 }
+
+.see-more {
+    display: flex;
+    justify-content: end;
+    width: 70%;
+}
+
+.see-more a {
+    color: palevioletred;
+    font-weight: 700;
+}
+
+.filled {
+    color: gold;
+}
+
+.unfilled {
+    color: gold;
+}
+
+
+/*-------- three-part-------- */
+
+.three-part {
+    display: flex;
+}
+
+.cover-pic {
+    width: 50%;
+}
+
+.cover-pic img {
+    width: 70%;
+}
+
+.cover-text {
+    width: 50%;
+    padding-right: 15%;
+}
+
+.link-button2 {
+    text-decoration: none;
+    border: 5px solid palevioletred;
+    background-color: palevioletred;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* -------------part-four---------- */
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
